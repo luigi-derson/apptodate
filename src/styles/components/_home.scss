@@ -1,0 +1,56 @@
+.body-section {
+    background: $neutral-gray;
+    margin-bottom: 58px;
+    padding-top: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.resume-card {
+    padding: 0.6rem 1rem;
+    width: 90%;
+    background: white;
+    margin-bottom: 0.8rem;
+    border: 1px solid $neutral-gray;
+    border-radius: 5px;
+}
+
+.resume-card ul {
+    list-style: none;
+}
+
+.resume-card__header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.25rem;
+    margin-bottom: 0.25rem;
+    border-bottom: 1px solid $lightness-gray;
+}
+
+.resume-card__title {
+    font-size: $base-size;
+    color: $primary-light;
+    font-weight: 600;
+}
+
+.resume-card__date {
+    font-size: 0.8em;
+    color: $secondary-dark;
+}
+
+.resume-card__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shopping-list {
+    width: 100%;
+}
+
+.shopping-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

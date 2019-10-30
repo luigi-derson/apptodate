@@ -1,0 +1,42 @@
+.main-nav {
+    padding: 1rem;
+    position: fixed;
+    background: white;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid $neutral-gray;
+}
+
+.main-nav__list {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.main-nav__item {
+    text-align: center;
+}
+
+.main-nav__icon {
+    fill: $primary-light;
+    stroke: white;
+    stroke-width: 0.7;
+}
+
+.is-active svg {
+    fill: $primary-dark;
+    stroke: none;
+    stroke-width: 0;
+}
+
+.main-nav__icon:hover {
+    fill: $primary-dark;
+    stroke: none;
+    stroke-width: 0;
+}
+
+a:focus {
+    outline: 0;
+}

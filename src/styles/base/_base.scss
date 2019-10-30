@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Asap:400,600&display=swap");
+
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: 400;
+    font-size: $base-size;
+    font-family: $main-font, Arial, Helvetica, sans-serif;
+    line-height: $l-size;
+}
+
+.app-body {
+    min-height: calc(100vh - 58px);
+    background: $lightness-gray;
+}
+
+.title-container {
+    color: $primary-dark;
+}
