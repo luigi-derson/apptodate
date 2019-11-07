@@ -1,14 +1,14 @@
 import React from "react";
 
-const ExpensesResume = () => (
-    <div className="resume-card">
-        <div className="resume-card__header">
-            <span className="resume-card__title">Current expenses</span>
-            <button className="resume-card__button" type="button">
+const ExpensesSummary = () => (
+    <div className="summary-card">
+        <div className="summary-card__header">
+            <span className="summary-card__title">Current expenses</span>
+            <button className="summary-card__button" type="button">
                 Add purchase
             </button>
         </div>
-        <div className="resume-card__content">
+        <div className="summary-card__content">
             <ul>
                 <li>Luigi</li>
                 <li>Andrea</li>
@@ -27,4 +27,4 @@ const ExpensesResume = () => (
     </div>
 );
 
-export default ExpensesResume;
+export default ExpensesSummary;

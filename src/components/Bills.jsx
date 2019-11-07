@@ -2,7 +2,7 @@ import React from "react";
 
 const Bills = () => (
     <div className="body-section">
-        <div className="resume-card__content">
+        <div className="summary-card__content">
             <ul>
                 <li>Water</li>
                 <li>Electricity</li>
